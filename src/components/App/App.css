@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  --fontColor: #4A0D67;
+  --bgColor: #DAFFED;
+  --lightgreenColor: #ADFC92;
+  --blueColor: #473198;
+  --lightblueColor: #9BF3F0;  
+}
+.App{  
+  background-color: var(--bgColor);
+  color: var(--fontColor);    
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content:start;
+  width:100%;
+  min-height: 100%;
+  padding-top: 2em;
+}
+.App__error{
+  width: 100%;
+  text-align: center;  
+  color: red;
+}

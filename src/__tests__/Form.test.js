@@ -8,6 +8,6 @@ describe('Form', () => {
   }; 
   it('render Form without crushing', () => {
     const div = document.createElement('div');
-    ReactDOM.render(<Form setPoints={setPoints}/>, div);
+    ReactDOM.render(<Form setPoints={setPoints} max={3}/>, div);
   });       
 });

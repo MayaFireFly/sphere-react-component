@@ -1,0 +1,24 @@
+.Sphere__popup{
+    position: relative;
+    top:-10em;
+    left: 2em;
+    width:5em;
+    height: auto;
+    max-height: 2em;
+    background-color: var(--fontColor);
+    color: var(--lightgreenColor);
+    font-weight: bold;
+    text-align: center;
+    padding: 0 auto;
+}
+.Sphere__popup > h6{
+    margin: 0;
+}
+.Sphere_border{
+    border: 2px solid var(--lightgreenColor);
+    border-radius: 10px;
+}
+.Sphere__header{
+    cursor: pointer;
+    text-align: center;
+}
